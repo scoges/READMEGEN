@@ -8,7 +8,7 @@ const questions = [
     {
         type: 'input',
         name: 'name',
-        message: 'Welcome to the README generator! To start, please provide your full name:',
+        message: 'To start, please enter your full name:',
         validate: nameInput => {
             if (nameInput) {
                 return true;
